@@ -10,10 +10,6 @@ import re
 
 os.chdir(os.path.dirname(__file__))
 
-# For docker
-USER = 'sassy_dog'
-IP = '10.218.255.139'
-
 # For edit
 PIC_DIR = 'memes/'
 FLAG_PIC_DIR = 'flag_memes/'
@@ -368,15 +364,6 @@ def check(hostname, f_id, flag):
 
         if flag in resp.content.decode():
             print('Get flag: %s' % flag)
-            try:
-                os.popen(
-                    'ssh {user}@{ip} "python3 create_dockers.py execute {host} {port} {email} {passwd}"'.format(
-                        user=USER, ip=IP, host=hostname, port=PORT,
-                        email=email,
-                        passwd=passwd))
-            except Exception as error:
-                print(error)
-            print('Ok')
         if resp.status_code >= 400: raise MyException('Vse idet ko dnu')
 
         print('\033[92mSuccess {}\033[0m'.format(STATUS_CODE['SUCCESS']))
@@ -392,14 +379,6 @@ def check(hostname, f_id, flag):
         exit(STATUS_CODE['CORRUPT'])
     except Exception as error:
         print('Всё очень плохо :c ' + str(error))
-
-
-# def main():
-#     put(SITE_ADDR, FLAG_ID, FLAG)
-#     check(SITE_ADDR, FLAG_ID, FLAG)
-#
-#
-# main()
 
 
 if __name__ == '__main__':
