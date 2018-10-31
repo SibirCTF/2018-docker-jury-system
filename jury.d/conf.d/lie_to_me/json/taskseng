@@ -1,0 +1,400 @@
+1. Write the program which accepts two integers a, b and puts them.
+5 5
+10
+
+2. Write the program which accepts two integers a, b and multiplies them.
+6 6
+36
+
+3. Write the program which accepts two integers a, b and subtracts the first from the second.
+10 5
+5
+
+4. Write the program which calculates square perimeter on its party of a.
+5
+20
+
+5. Write the program which calculates rhombus perimeter on its party of a.
+5
+20
+
+6. Write the program which calculates rectangle perimeter on two of its parties of an and b.
+5 6
+22
+
+7. Write the program which calculates triangle perimeter on three of its parties of a, b, c.
+5 6 7
+18
+
+8. Write the program which calculates perimeter of an isosceles triangle on two of its parties of an and b, and a = with. 
+5 6
+16
+
+9. Write the program which calculates perimeter of a rectangular triangle on three of its parties of a, b, c.
+5 6 7
+18
+
+10. Write the program which calculates perimeter of an isosceles rectangular triangle on two of its parties of an and b, and b = with.
+5 8
+21
+
+11. Write the program which calculates trapeze perimeter on four of its parties of a, b, c, d.
+5 4 9 3
+21
+
+12. Write the program which calculates perimeter of a ravnoboky trapeze on two of its parties of a, b, and a = c, b = d.
+5 10
+30
+
+13. Write the program which calculates perimeter of a rectangular trapeze on four of its parties of a, b, c, d.
+8 9 2 5
+24
+
+14. Write the program which calculates parallelogram perimeter on two of its parties of a, b, and a = c, b = d.
+10 5
+30
+
+15. Write the program which calculates parallelogram perimeter on three of its parties of a, b, c, and a = b, c = d.
+10 10 5
+30
+
+16. Write the program which calculates parallelogram perimeter on three of its parties of a, b, c, and a = c, b = d.
+10 5 10
+30
+
+17. Write the program which calculates parallelogram perimeter on the party of a, and a = b = c = d.
+5
+20
+
+18. Write the program which calculates the area of a square on its party of a.
+5
+25
+
+19. Write the program which calculates the area of a rectangle on two of its parties of a, b.
+5 6
+30
+
+20. Write the program which calculates the area of a rhombus on its party of an and the basis of h.
+5 6
+30
+
+21. Write the program which calculates the area of a rhombus on two of its diagonals of d1 and d2. 
+5 6
+15
+
+22. Write the program which calculates a rectangle diagonal square on two of its parties of a, b. 
+6 8
+100
+
+23. Write the program which calculates square diagonal on its party of a. From 2 to take 1,41 for a root. To Okrulit up to two signs after a comma.
+100 
+141.00
+
+24. Write the program which calculates the area of a parallelogram on its basis of an and height of h.
+5 6
+30
+
+25. Write the program which calculates the area of a parallelogram on two parties of a, b and a corner between them, to equal 30 degrees. To round to one sign after a comma.
+5 6
+15.0
+
+26. Write the program which calculates the area of a triangle on its party of an and height of h. To round to one sign after a comma.
+5 6
+15.0
+
+27. Write the program which calculates the area of a triangle on two of its parties of a, b and a corner between them, to equal 30 degrees. To round to two signs after a comma.
+2 10
+5.00
+
+28. Write the program which calculates the area of a triangle on a poluperimetr of p and radius of an inscribed circle of r.
+5 6
+30
+
+29. Write the program which calculates the area of a rectangular triangle on two of its parties and and b. To round to one sign after a comma.
+5 6
+15.0
+
+30. Write the program which calculates a square of the party from a rectangular triangle on two of its parties of a, b.
+6 8
+100
+
+31. Write the program which calculates a square of the area of a triangle on three of its parties of a, b, c.
+3 4 5
+36
+
+32. Write the program which calculates the area of a trapeze on two bases of a, b and height of h. To round to one sign after a comma.
+5 6 2
+11.0
+
+33. Write the program which calculates the average line of a trapeze on two bases of a, b. To round to one sign after a comma.
+6 4
+5
+
+34. Write the program which calculates the area of a circle on R radius. To take пи for 3,14. To round to two signs after a comma. 
+2
+12.56
+
+35. Write the program which calculates the area of a circle on diameter of D. To take пи for 3,14. To round to two signs after a comma.
+4
+12.56
+
+36. Write the program which calculates circle length through r radius. To take пи for 3,14. To round to two signs after a comma.
+2
+12.56
+
+37. Write the program which calculates circle length through diameter of D. To take пи for 3,14. To round to two signs after a comma.
+4
+12,56
+
+38. Write the program which calculates cube volume on the party of a.
+2
+8
+
+39. Write the program which calculates cube surface area on its party of a.
+2
+24
+
+40. Write the program which calculates cube diagonal length on its party of a. To take a root from 3 for 1,73. To round to two signs after a comma.
+2
+3.46
+
+41. Write the program which calculates parallelepiped volume on the area of the basis of S and height of h.
+2 4
+8
+
+42. Write the program which calculates parallelepiped surface area on the area of the basis of S1 and side Square S2.
+6 4
+16
+
+43. Write the program which calculates the area of a triangle on three parties of a, b, c and radius of a circumscribed circle. To round to two signs after a comma.
+4 2 5 2 
+5
+
+44. Write the program which calculates the volume of a rectangular parallelepiped on three parties of a, b, c.
+5 2 6
+60
+
+45. Write the program which calculates the surface area of a rectangular parallelepiped on three parties of a, b, c.
+5 2 6
+104
+
+46. Write the program which calculates a square of diagonal of a rectangular parallelepiped on three parties of a, b, c.
+4 3 12
+169
+
+47. Write the program which calculates prism volume on the area of the basis of S and height of h.
+6 5
+30
+
+48. Write the program which calculates prism surface area on the area of the basis of S1 and side Square S2.
+5 2
+12
+
+49. Write the program which calculates cylinder volume on radiuses of the basis to R and height of h. To take пи for 3,14. To round to two signs after a comma.
+2 5
+62.80
+
+50. Write the program which calculates cylinder volume on diameter of the basis of D and height of h. To take пи for 3,14. To round to two signs after a comma.
+4 5
+62.80
+
+51. Write the program which calculates cylinder surface area on the area of the basis of S1 and the area of a side surface of S2.
+5 2
+12
+
+52. Write the program which calculates cylinder surface area on the radius of the basis of R and height of h. To take пи for 3,14. To round to two signs after a comma.
+10 20
+1884.00
+
+53. Write the program which calculates cylinder surface area on diameter of the basis of D and height of h. To take пи for 3,14. To round to two signs after a comma.
+20 20
+1884.00
+
+54. Write the program which calculates sphere volume on R radius. To take пи for 3,14. To round to two signs after a comma.
+3
+113.04
+
+55. Write the program which calculates sphere volume on diameter of D. To take пи for 3,14. To round to two signs after a comma.
+6
+113.04
+
+56. Write the program which calculates sphere surface area on R radius. To take пи for 3,14. To round to two signs after a comma.
+10
+1256.00
+
+57. Write the program which calculates sphere surface area on diameter of D. To take пи for 3,14. To round to two signs after a comma.
+20
+1256.00
+
+58. Write the program which calculates cone volume on the area of the basis of S and height of h. To round to two signs after a comma.
+5 3
+5
+
+59. Write the program which calculates the area of a triangle on three parties of a, b, c and diameter of an inscribed circle. To round to two signs after a comma.
+5 4 2 9
+2
+
+60. Write the program which calculates cone volume on diameter of the basis of D and height of h. To take пи for 3,14. To round to two signs after a comma.
+5 4
+78.50
+
+61. Write the program which calculates cone surface area on the area of the basis of S1 and the area of a side surface of S2.
+5 10
+15
+
+62. Write the program which calculates cone surface area on the radius of the basis of R and forming a cone of L. To take пи for 3,14.
+10 10
+628.00
+
+63. Write the program which calculates cone surface area on diameter of the basis of D and forming a cone of L. To take пи for 3,14.
+20 10
+628.00
+
+64. Write the program which calculates a square to R forming a cone on the radius of the basis and height of h.
+6 8
+100
+
+65. Write the program which calculates forming a cone on diameter of the basis of D and height of h.
+12 8
+100
+
+66. Write the program which calculates the area of the basis of a cone on R radius. To take пи for 3,14.
+5
+78.50
+
+67. Write the program which calculates the area of the basis of a cone on diameter of D. To take пи for 3,14.
+10
+78.50
+
+68. Write the program which calculates the area of a side surface of a cone on the radius of R and forming L. To take пи for 3,14.
+10 10
+314.00
+
+69. Write the program which calculates the area of a side surface of a cone on diameter of D and forming L. To take пи for 3,14.
+20 10
+314.00
+
+70. Write the program which calculates pyramid volume on the area of the basis of S and height of h. To round to whole.
+6 10
+20
+
+71. Write the program which calculates pyramid surface area on the area of the basis of S1 and the area of a side surface of S2. To take пи for 3,14.
+20 25
+45
+
+72. Write the program which calculates the area of a side surface of the cylinder on the radius of R and height of h. To take пи for 3,14.
+2 50
+314.00
+
+73. Write the program which calculates the area of a side surface of the cylinder on diameter of D and height of h.
+To take пи for 3,14.
+4 50
+314.00
+
+74. Write the program which calculates the area of the basis of the cylinder on R radius. To take пи for 3,14.
+10
+314.00
+
+75. Write the program which calculates the area of the basis of the cylinder on diameter of D. To take пи for 3,14.
+20
+314.00
+
+76. Write the program which calculates cone volume on the radius of R and height of h. To take пи for 3,14.
+10 5
+523.33
+
+77. Write the program which calculates the area of a side surface of a cone on the surface area of a cone of S1 and the area of the basis of S2.
+6 4
+2
+
+78. Write the program which calculates the area of a side surface of the cylinder on the surface area of the S1 cylinder and the area of the basis of S2.
+10 2
+6
+
+79. Write the program which calculates the area of a side surface of a pyramid on the surface area of S1 and the area of the basis of S2.
+6 4
+2
+
+80. Write the program which calculates kinetic energy of a body on the body weight of m and speed of movement v. To round to two signs.
+5 2
+10
+
+81. Write the program which calculates angular speed on T cycle time. To take пи for 3,14.
+2
+3.14
+
+82. Write the program which calculates instantaneous velocity at the uniformly accelerated movement on the initial speed of v0, acceleration of an and time of t.
+0 5 1
+5
+
+83. Write the program which calculates the module of average speed at the uniformly accelerated movement at an initial speed of v0 and speed of v.
+6 10
+8
+
+84. Write the program which calculates movement at the uniformly accelerated movement on initial movement of x0, initial speed of v0, t time, acceleration of a.
+0 0 3 2
+9
+
+85. Write the program which calculates work of constant force on force of F, a way of movement of S and a corner of a between the direction of force and the direction of the movement of a body equal 0.
+5 3
+15
+
+86. Write the program which calculates work of gravity on the body weight of m and change of height from h1 to h2. To take acceleration of gravity for 10.
+5 1 2
+50
+
+87. Write the program which calculates potential energy of a body on the body weight of m and height of h. To take acceleration of gravity for 10.
+5 2
+100
+
+88. Write the program which calculates a square of height of an isosceles triangle on the party of an and the basis of b.
+10 16
+36
+
+89. Write the program which calculates height of an equilateral triangle on the party of a. To accept a root from 3 equal 1,73.
+2
+1.73
+
+90. Write the program which calculates the area of an equilateral triangle on the party of a. To accept a root from 3 equal 1,73.
+2
+1.73
+
+91. Write the program which calculates a discriminant of the equation of a type of ax^2 + bx + c = 0.
+1 5 -6
+49
+
+92. Write the program which solves the equation of a type of ax + b = 0.
+-5 5
+1
+
+93. Write the program which calculates c^2 on Pythagorean theorem.
+6 8
+100
+
+94. Write the program which calculates c^2 according to the theorem of cosines at coal, equal 90 degrees
+6 8
+100
+
+95. Write the program which calculates a body impulse on the mass of m and speed of v.
+5 10
+50
+
+96. Write the program which of two numbers an and b finds the greatest.
+5 10
+10
+
+97. Write the program which of two numbers an and b finds the smallest.
+5 10
+5
+
+98. Write the program which among three integers a, b, finds c the greatest.
+5 10 58
+58
+
+99. Write the program which among three integers a, b, finds c the smallest.
+5 10 58
+5
+
+100. Write the program which calculates the area of a square on d diagonal. 
+10
+550

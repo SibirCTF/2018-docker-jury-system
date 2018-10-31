@@ -1,0 +1,44 @@
+version: '2'
+
+services:
+  sibirwtf2018db:
+    image: mysql:5.7
+    volumes:
+      - "/opt/wtf18.git/docker_db/mysql:/var/lib/mysql"
+      - "/opt/wtf18.git/docker_db/initdb:/docker-entrypoint-initdb.d"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: KzhyntJxwt
+      MYSQL_DATABASE: fhqjuryad
+      MYSQL_USER: fhqjuryad
+      MYSQL_PASSWORD: uW2r0V5kpK
+    networks:
+      - sibirwtf2018net
+
+  sibirwtf2018jury:
+    depends_on:
+      - sibirwtf2018db
+    image: sibirctf2018/fhq-jury-ad:latest
+    volumes:
+      - "/opt/wtf18.git/jury.d:/usr/share/fhq-jury-ad/jury.d"
+    ports:
+      - "8080:8080"
+    restart: always
+    links:
+      - "sibirwtf2018db"
+    environment:
+      JURY_DB_HOST: sibirwtf2018db
+      JURY_DB_PORT: 3306
+      JURY_DB_NAME: fhqjuryad
+      JURY_DB_USER: fhqjuryad
+      JURY_DB_PASSWORD: uW2r0V5kpK
+    networks:
+      - sibirwtf2018net
+
+volumes:
+  db_data:
+  jury.d:
+
+networks:
+  sibirwtf2018net:
+    driver: bridge
