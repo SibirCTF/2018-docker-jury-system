@@ -10,7 +10,7 @@
 
 1. Clone project 
 ```
-$ git clone git@gitlab.com:sibirctf/docker_jury.git /opt/wtf18.git
+$ git clone https://github.com/SibirCTF/2018-docker-jury-system.git /opt/wtf18.git
 ```
 
 2. First you need build docker with jury:
